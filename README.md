@@ -90,3 +90,18 @@ export PATH=/usr/local/cuda-8.0/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64/
 ```
 
+Now, reload your ~/.bashrc 
+```bash
+$source ~/.bashrc
+```
+and then test the CUDA Toolkit installation by compiling the deviceQuery  example program and running it:
+```bash
+$ cd /usr/local/cuda-8.0/samples/1_Utilities/deviceQuery
+$ sudo make
+$ ./deviceQuery
+```
+if you installed everything correctly, you will observe 
+```bash
+Result = PASS
+```
+
