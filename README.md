@@ -199,6 +199,12 @@ sudo apt-get install -y python-dev
 sudo apt-get install -y python-numpy python-scipy
 ```
 
+```bash
+sudo apt-get install libtcmalloc-minimal4
+###add following line into ~/.bashrc
+export LD_PRELOAD="/usr/lib/libtcmalloc_minimal.so.4"
+```
+
 Get the code:
 ```bash
 git clone repo
