@@ -74,4 +74,19 @@ $ sudo ./cuda-linux64-rel-8.0.61-21551265.run
 $ sudo ./cuda-samples-linux-8.0.61-21551265.run
 ```
 
-Again, accepting the licenses and following the default prompts. You may have to press ‘space’ to scroll through the license agreement and then enter “accept” as I’ve done int the image above. When it asks you for installation paths, just press <enter>  to accept the defaults.
+Again, accepting the licenses and following the default prompts. 
+You may have to press ‘space’ to scroll through the license agreement and then enter “accept”. 
+When it asks you for installation paths, just press <enter>  to accept the defaults.
+
+
+Now that the NVIDIA CUDA driver and tools are installed, you need to update your ~/.bashrc  file to include CUDA Toolkit
+```bash
+nano ~/.bashrc
+```
+and add following lines in the end
+```bash
+# NVIDIA CUDA Toolkit
+export PATH=/usr/local/cuda-8.0/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64/
+```
+
