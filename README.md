@@ -76,7 +76,22 @@ $ sudo ./cuda-samples-linux-8.0.61-21551265.run
 
 Again, accepting the licenses and following the default prompts. 
 You may have to press ‘space’ to scroll through the license agreement and then enter “accept”. 
-When it asks you for installation paths, just press <enter>  to accept the defaults.
+When it asks you for installation paths, just press <enter>  to accept the defaults. 
+```bash
+accept/decline/quit: accept             
+Logging to /tmp/cuda-installer-2532
+
+Enter install path
+ [ default is /usr/local/cuda-8.0 ]: 
+
+Would you like to add desktop menu shortcuts?
+(y)es/(n)o/(a)ll users [ default is all users ]: n
+
+Would you like to create a symbolic link /usr/local/cuda pointing to /usr/local/cuda-8.0?
+(y)es/(n)o/(a)bort [ default is yes ]: y
+
+Creating symbolic link /usr/local/cuda -> /usr/local/cuda-8.0
+```
 
 
 Now that the NVIDIA CUDA driver and tools are installed, you need to update your ~/.bashrc  file to include CUDA Toolkit
