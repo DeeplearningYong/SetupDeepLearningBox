@@ -117,6 +117,11 @@ $ ./deviceQuery
 ```
 if you installed everything correctly, you will observe 
 ```bash
+Device 0: "GeForce GTX 1080 Ti"
+  CUDA Driver Version / Runtime Version          9.0 / 8.0
+......
+......
+......
 Result = PASS
 ```
 
