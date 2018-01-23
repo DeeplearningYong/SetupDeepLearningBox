@@ -204,6 +204,10 @@ sudo apt-get install libtcmalloc-minimal4
 ###add following line into ~/.bashrc
 export LD_PRELOAD="/usr/lib/libtcmalloc_minimal.so.4"
 ```
+then 
+```bash
+source ~/.bashrc
+```
 
 Get the code:
 ```bash
