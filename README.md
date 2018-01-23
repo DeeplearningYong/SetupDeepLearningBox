@@ -31,10 +31,11 @@ $ sudo apt-get install linux-source linux-headers-generic
 ```
 
 4) Install CUDA
+use nano to edit some file: 
 ```bash
 $ sudo nano /etc/modprobe.d/blacklist-nouveau.conf
 ```
-Add the following lines and then save and exit:
+Add the following lines and then save and exit (ctrl+x):
 ```bash
 blacklist nouveau
 blacklist lbm-nouveau
