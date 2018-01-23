@@ -67,7 +67,7 @@ $ chmod +x cuda_8.0.61_375.26_linux.run
 $ mkdir installers
 $ sudo ./cuda_8.0.61_375.26_linux.run -extract=`pwd`/installers
 
-$ modprobe nvidia
+$ sudo modprobe nvidia
 
 $ cd installers
 $ sudo ./cuda-linux64-rel-8.0.61-21551265.run
