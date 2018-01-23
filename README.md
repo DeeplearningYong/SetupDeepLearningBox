@@ -30,7 +30,7 @@ $ sudo apt-get install linux-source linux-headers-generic
 
 ```
 
-4) Install CUDA
+4) Disable the Nouveau kernel driver
 
 use nano to edit some file: 
 ```bash
@@ -54,6 +54,7 @@ $ sudo reboot
 ```
 
 
-You will want to download the CUDA Toolkit v8.0 via the [NVIDIA CUDA Toolkit website:](https://developer.nvidia.com/cuda-80-ga2-download-archive)
+5) Install CUDA 
 
+You will want to download the CUDA Toolkit v8.0 via the [NVIDIA CUDA Toolkit website:](https://developer.nvidia.com/cuda-80-ga2-download-archive)
 Once you’re on the download page, select Linux => x86_64 => Ubuntu => 16.04 => runfile (local) .
