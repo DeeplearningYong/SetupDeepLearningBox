@@ -76,7 +76,7 @@ $ sudo ./cuda-samples-linux-8.0.61-21551265.run
 
 Again, accepting the licenses and following the default prompts. 
 You may have to press ‘space’ to scroll through the license agreement and then enter “accept”. 
-When it asks you for installation paths, just press <enter>  to accept the defaults. 
+When it asks you for installation paths, just press <enter>  to accept the defaults. For example: 
 ```bash
 accept/decline/quit: accept             
 Logging to /tmp/cuda-installer-2532
