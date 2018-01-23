@@ -108,6 +108,7 @@ Result = PASS
 6) Install cuDNN
 
 For this step, you will need to [Create a free account](https://developer.nvidia.com/developer-program) with NVIDIA and [download cuDNN](https://developer.nvidia.com/cudnn).
+
 You can download => Download cuDNN v5.1 (Jan 20, 2017), for CUDA 8.0 => cuDNN v5.1 Library for Linux
 
 
