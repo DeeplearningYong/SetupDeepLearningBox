@@ -112,7 +112,7 @@ $source ~/.bashrc
 and then test the CUDA Toolkit installation by compiling the deviceQuery  example program and running it:
 ```bash
 $ cd /usr/local/cuda-8.0/samples/1_Utilities/deviceQuery
-$ sudo make
+$ sudo make -j8
 $ ./deviceQuery
 ```
 if you installed everything correctly, you will observe 
