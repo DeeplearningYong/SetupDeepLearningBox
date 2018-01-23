@@ -4,9 +4,13 @@
 1) You already installed Ubuntu 16.04 
 2) You have a nvidia GPU card (1080, 1080 Ti, etc) and installed nvidia driver as following: 
 ```bash
-sudo apt-get purge nvidia*
-sudo add-apt-repository ppa:graphics-drivers
-sudo apt-get install nvidia-384
-sudo reboot
+$sudo apt-get purge nvidia*
+$sudo add-apt-repository ppa:graphics-drivers
+$sudo apt-get install nvidia-384
+$sudo reboot
 ```
-
+3) Install Ubuntu system dependencies
+```bash
+$ sudo apt-get update
+$ sudo apt-get upgrade
+```
