@@ -185,6 +185,8 @@ $ python
 ```
 
 # Build Caffe with SSD 
+
+Install system dependencies
 ```bash
 sudo apt-get install -y build-essential cmake git pkg-config
 sudo apt-get install -y libprotobuf-dev libleveldb-dev libsnappy-dev libhdf5-serial-dev protobuf-compiler
@@ -193,9 +195,25 @@ sudo apt-get install -y --no-install-recommends libboost-all-dev
 sudo apt-get install -y libgflags-dev libgoogle-glog-dev liblmdb-dev
 
 sudo apt-get install -y python-pip
-
 sudo apt-get install -y python-dev
 sudo apt-get install -y python-numpy python-scipy
 ```
+
+Get the code:
+```bash
+git clone repo
+
+cd caffe
+cd python
+for req in $(cat requirements.txt); do sudo pip install $req; done
+
+cd ..
+sudo make clean
+sudo make all -j8
+sudo make test -j8 
+sudo make pycaffe -j8
+```
+
+
 
 
