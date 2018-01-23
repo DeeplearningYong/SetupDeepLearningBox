@@ -145,7 +145,7 @@ $ cd ~
 ```bash
 $ wget https://bootstrap.pypa.io/get-pip.py
 $ sudo python get-pip.py
-$ pip install numpy
+$ sudo pip install numpy
 ```
 
 8) Install OpenCV
