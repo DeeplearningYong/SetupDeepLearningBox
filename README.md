@@ -59,3 +59,11 @@ $ sudo reboot
 You will want to download the CUDA Toolkit v8.0 via the [NVIDIA CUDA Toolkit website:](https://developer.nvidia.com/cuda-80-ga2-download-archive)
 
 Once you’re on the download page, select Linux => x86_64 => Ubuntu => 16.04 => runfile (local) .
+
+Move the downloaded runfile into your home folder, then unpack it:
+```bash
+$ cd ~ 
+$ chmod +x cuda_8.0.61_375.26_linux.run
+$ mkdir installers
+$ sudo ./cuda_8.0.61_375.26_linux.run -extract=`pwd`/installers
+```
