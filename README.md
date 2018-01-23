@@ -111,5 +111,16 @@ For this step, you will need to [Create a free account](https://developer.nvidia
 
 You can download => Download cuDNN v5.1 (Jan 20, 2017), for CUDA 8.0 => cuDNN v5.1 Library for Linux
 
+Again, you can move the downloaded file into your home folder, then
+```bash
+$ cd ~
+$ tar -zxf cudnn-8.0-linux-x64-v5.1.tgz
+$ cd cuda
+$ sudo cp -P lib64/* /usr/local/cuda/lib64/
+$ sudo cp -P include/* /usr/local/cuda/include/
+$ cd ~
+```
+
+
 
 
