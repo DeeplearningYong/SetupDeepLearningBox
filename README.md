@@ -29,3 +29,17 @@ $ sudo apt-get install linux-image-generic linux-image-extra-virtual
 $ sudo apt-get install linux-source linux-headers-generic
 
 ```
+
+4) Install CUDA
+```bash
+$ sudo nano /etc/modprobe.d/blacklist-nouveau.conf
+```
+Add the following lines and then save and exit:
+```bash
+blacklist nouveau
+blacklist lbm-nouveau
+options nouveau modeset=0
+alias nouveau off
+alias lbm-nouveau off
+```
+
