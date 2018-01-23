@@ -30,7 +30,7 @@ $ sudo apt-get install linux-source linux-headers-generic
 
 ```
 
-4) Install CUDA
+4) Install CUDA \n 
 use nano to edit some file: 
 ```bash
 $ sudo nano /etc/modprobe.d/blacklist-nouveau.conf
