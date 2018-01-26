@@ -1,3 +1,4 @@
+
 # How to Setup Deep Learning Environment
 
 1) You already installed Ubuntu 16.04 
@@ -211,12 +212,14 @@ source ~/.bashrc
 
 Get the code:
 ```bash
-git clone repo
+Ask me to get the code for Caffe ... 
+unzip it
 
 cd caffe
 cd python
 for req in $(cat requirements.txt); do sudo pip install $req; done
 
+ 
 cd ..
 sudo make clean
 sudo make all -j8
