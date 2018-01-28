@@ -210,22 +210,25 @@ then
 source ~/.bashrc
 ```
 
-Get the code:
+Download the Caffe code from the link I shared, uncompress it and rename it as caffe
 ```bash
-Ask me to get the code for Caffe ... 
-unzip it
+tar -xvzf ******.tar.gz
+mv ****** caffe
 
 cd caffe
 cd python
 for req in $(cat requirements.txt); do sudo pip install $req; done
 
- 
+###add following line into ~/.bashrc and specify the path to your unzipped caffe folder 
+export PYTHONPATH=/path/to/caffe-master/python:$PYTHONPATH
+
 cd ..
 sudo make clean
 sudo make all -j8
 sudo make test -j8 
 sudo make pycaffe -j8
 ```
+
 
 
 
