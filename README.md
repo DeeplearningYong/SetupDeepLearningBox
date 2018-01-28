@@ -219,8 +219,11 @@ cd caffe
 cd python
 for req in $(cat requirements.txt); do sudo pip install $req; done
 
-###add following line into ~/.bashrc and specify the path to your unzipped caffe folder 
+### add following line into ~/.bashrc and specify the path to your unzipped caffe folder 
 export PYTHONPATH=/path/to/caffe-master/python:$PYTHONPATH
+
+### update .bashrc 
+source ~/.bashrc 
 
 cd ..
 sudo make clean
