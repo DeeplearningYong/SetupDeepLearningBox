@@ -232,6 +232,14 @@ sudo make test -j8
 sudo make pycaffe -j8
 ```
 
+### how to run MNIST example
+[Run the MNIST example with Caffe ] (http://caffe.berkeleyvision.org/gathered/examples/mnist.html)
+./data/mnist/get_mnist.sh
+./examples/mnist/create_mnist.sh
+./examples/mnist/train_lenet.sh
+ 
+
+
 
 
 
