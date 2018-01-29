@@ -187,7 +187,7 @@ $ python
 
 # Build Caffe with SSD 
 
-Install system dependencies
+1) Install system dependencies
 ```bash
 sudo apt-get install -y build-essential cmake git pkg-config
 sudo apt-get install -y libprotobuf-dev libleveldb-dev libsnappy-dev libhdf5-serial-dev protobuf-compiler
@@ -210,7 +210,7 @@ then
 source ~/.bashrc
 ```
 
-Download the Caffe code from the link I shared, uncompress it and rename it as caffe
+2) Download the Caffe code from the link I shared, uncompress it and rename it as caffe
 ```bash
 tar -xvzf ******.tar.gz
 mv ****** caffe
@@ -232,7 +232,9 @@ sudo make test -j8
 sudo make pycaffe -j8
 ```
 
-How to run MNIST example
+Make sure all builds have no errors. 
+
+3) How to run MNIST example
 [Run the MNIST example with Caffe](http://caffe.berkeleyvision.org/gathered/examples/mnist.html)
 ```bash
 ./data/mnist/get_mnist.sh
